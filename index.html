@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Olha is a Ukrainian newbie front-end engineer based in Portugal."
+    />
+    <title>Front-end developer - Olha Zen</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,25 +29,25 @@
   <div class="container">
     <nav class="d-flex justify-content-between">
       <a href="/">
-        <img src="images/logo.png" class="logo d-none d-md-block" alt="" />
+        <img src="images/logo.png" class="logo d-none d-md-block" alt="Olha Zen logo" />
         <img
           src="images/logo-small.jpg"
           class="logo d-block d-md-none"
-          alt=""
+          alt="Olha Zen logo"
         />
       </a>
       <ul>
         <li class="active">
-          <a href="/"> Home</a>
+          <a href="/" title="Homepage"> Home</a>
         </li>
         <li>
-          <a href="/about.html"> About</a>
+          <a href="/about.html" title="About Olha"> About</a>
         </li>
         <li>
-          <a href="/work.html"> Work</a>
+          <a href="/work.html" title="Olha's work"> Work</a>
         </li>
         <li>
-          <a href="/contact.html"> Contact</a>
+          <a href="/contact.html" title="Contact Olha"> Contact</a>
         </li>
       </ul>
     </nav>
@@ -67,7 +71,7 @@
     <br>
     <br>
     <br>
-    <img id="object-position" src="images/goli.png" class="img-fluid btn-branding" alt="" />
+    <img id="object-position" src="images/goli.png" class="img-fluid btn-branding" alt="Goli project preview" />
   </div>
   <div class="col-6">
     <div class="project-decsription">
@@ -75,7 +79,7 @@
     <p class="mb-4 text-muted">
       Goli Gummies are made with the Highest Quality Ingredients. Make It Part of Your Routine! Goli Nutrition makes Delicious Supplements with Powerful Ingredients for Real Results.
     </p>
-    <a href="" class="btn btn-branding-outline"> Learn more </a>
+    <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
   </div>
   </div>
 </div>
@@ -86,7 +90,7 @@
     <p class="mb-4 text-muted">
       This weather app is one of best free weather apps with full features: weather in all the cities across the world at the moment of search, easy to use and with a great design!
     </p>
-    <a href="" class="btn btn-branding-outline"> Learn more </a>
+    <a href="/work.html" class="btn btn-branding-outline"> Learn more </a>
   </div>
   </div>
   <div class="col d-none d-lg-block">
@@ -95,36 +99,42 @@
     <br>
     <br>
     <br>
-    <img src="images/weatherapp.png" class="img-fluid btn-branding" alt="" />
+    <img src="images/weatherapp.png" class="img-fluid btn-branding" alt="Weather project preview" />
   </div>
 </div>
 <div class="row">
   <div class="col d-none d-lg-block">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <img src="images/zumba.png" class="img-fluid btn-branding" alt="" />
+    <img
+      src="images/dictionary.png"
+      class="img-fluid btn-branding"
+      alt="Dictionary app preview"
+    />
   </div>
-  <div class="col-6">
-    <div class="project-decsription">
-    <h2 class="mb-5">Zumba Love</h2>
-    <p class="mb-4 text-muted">
-      Zumba is the best way to feel fit, enjoy your time during doing sports and enrich yourself with endorphines! Check my Instructor's Page and join my classes!
-    </p>
-    <a href="" class="btn btn-branding-outline"> Learn more </a>
-  </div>
+  <div class="col">
+    <div class="project-desciption">
+      <h2 class="mb-5">Dictionary App</h2>
+      <p class="mb-5 text-muted">
+        I immersed myself in React development in SheCodes React. I used
+        my knowledge of this highly-demanded framework to build a working
+        dictionary app incorporating coding best practices, along with the
+        most popular tools and technologies.
+      </p>
+      <a href="/work.html" class="btn btn-branding-outline">
+        Learn more
+      </a>
+    </div>
   </div>
 </div>
 <footer>
   <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
     <div>
-      <h4>Work Inquiry</h4>
+      <h3>Work Inquiry</h3>
       <p class="text-muted">Let's work together</p>
     </div>
     <div>
-      <a href="" class="btn btn-branding mt-3"> Contact me </a>
+      <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
     </div>
   </div>
   <div class="d-flex justify-content-center mb-5">
@@ -133,17 +143,26 @@
     </a>
   </div>
   <div class="social-links d-flex justify-content-center">
-    <a href="https://www.github.com/olhasi" target="_blank">
+    <a href="https://www.github.com/olhazen" target="_blank" title="GitHub Profile">
       <i class="fab fa-github"></i>
     </a>
-    <a href="https://www.instragram.com/olhasi" target="_blank">
+    <a href="https://www.instragram.com/olhasi" target="_blank" title="Instagram Profile">
       <i class="fab fa-instagram"></i>
     </a>
-    <a href="https://www.facebook.com/olhasi" target="_blank">
+    <a href="https://www.facebook.com/olhasi" target="_blank" title="Facebook Profile">
       <i class="fab fa-facebook"></i>
     </a>
   </div>
 </footer>
+<p class="text-center mt-5">
+  ✌️ This website was coded by Olha Zen, and is
+  <a
+    href="https://github.com/olhazen/portfolio-project"
+    target="_blank"
+  >
+    an open-sourced
+  </a>
+</p>
 </div>
 </body>
 </html>
