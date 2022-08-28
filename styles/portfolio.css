@@ -27,6 +27,9 @@ p {
     font-size: 25px;
     line-height: 30px;
 }
+.img-fluid {
+border-radius: 10px;
+}
 .hero{
     background-color: var(--secondary-color);
     text-align: center;
@@ -99,10 +102,6 @@ line-height: 80px;
 }
 .logo {
     max-height: 40px;
-  }
-
-  .rounded {
-    border-radius: 25px;
   }
   
   nav {
