@@ -26,7 +26,7 @@ h2 {
 
 p {
     font-weight: normal;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 30px;
 }
 .img-fluid {
@@ -146,6 +146,7 @@ text-align: center;
   nav li.active a {
     color: var(--branding-color);
   }
+  
   footer {
     margin: 60px 0;
   }
@@ -160,6 +161,10 @@ text-align: center;
     margin: 0;
   }
   
+  footer .contact-box .links {
+    margin: 20px;
+    padding: 10px 60px;
+}
   footer .email-link {
     text-decoration: none;
     color: black;
@@ -184,6 +189,7 @@ text-align: center;
     color: white;
     background: var(--branding-color);
   }
+  /*media query*/
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
