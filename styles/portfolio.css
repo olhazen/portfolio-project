@@ -15,8 +15,9 @@ h1, h2, h3 {
     font-weight: bold;
 }
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.5;
+    text-align: center;
 }
 
 h2 {
@@ -33,7 +34,8 @@ border-radius: 10px;
 }
 .img-fluid-rounded-w-50 {
   border-radius: 15px;
-  width: 40%;
+  width: 35%;
+  image-orientation: inherit;
 }
 .goli-image {
 max-width: 60%;
@@ -68,8 +70,9 @@ margin: 0 auto;
   }
   
   .content h1 {
-font-size: 64px;
+font-size: 45px;
 line-height: 80px;
+text-align: center;
 }
 .content h2 {
     font-size: 18px;
@@ -188,7 +191,7 @@ line-height: 80px;
         line-height: 56px;
     }
     h2 {
-        font-size: 44px;
+        font-size: 40px;
     }
     .content {
         text-align: center;
