@@ -34,8 +34,7 @@ border-radius: 10px;
 }
 .img-fluid-rounded-w-50 {
   border-radius: 15px;
-  width: 35%;
-  image-orientation: inherit;
+  width: 25%;
 }
 .goli-image {
 max-width: 60%;
